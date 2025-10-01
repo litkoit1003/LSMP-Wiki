@@ -1,0 +1,61 @@
+site_name: Информационный портал LS:RP
+site_url: http://127.0.0.1:8000
+
+theme:
+  language: ru
+  name: material
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - search.suggest
+    - search.highlight
+    - navigation.tabs
+    - navigation.expand
+
+  font:
+    text: Inter
+    code: IBM Plex Mono
+
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+  palette: 
+  - scheme: slate
+    toggle:
+      icon: material/moon-waning-crescent
+      name: Тёмная тема
+    primary: deep purple
+    accent: green
+
+  - scheme: default
+    toggle:
+      icon: material/weather-sunny
+      name: Светлая тема
+    primary: deep purple
+    accent: green
+
+nav:
+  - ℹ️ Основная информация:
+    - index.md
+    - private-areas.md
+  - 📖 Правила и законы: 
+    - 📕 Правила:
+      - rules/index.md
+      - rules/prohibited-mods.md
+  - 🛠️ Для персонала: forstaff/index.md
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
