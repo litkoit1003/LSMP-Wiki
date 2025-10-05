@@ -48,6 +48,7 @@ nav:
   - 🛠️ Исправление проблем: problems/index.md
   - 📜 Юридическая информация: 
     - policy/privacy-policy.md
+    - policy/eula.md
 
 markdown_extensions:
   - attr_list
