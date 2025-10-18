@@ -12,6 +12,7 @@ theme:
     - search.highlight
     - navigation.tabs
     - navigation.expand
+    - navigation.sections
 
   font:
     text: Inter
@@ -38,7 +39,10 @@ theme:
 nav:
   - ℹ️ Основная информация:
     - Главная: index.md
-    - Приватные территории: private-areas.md
+    - 🔮 Как зайти?:
+      - Основная информация: join-guide.md
+      - Рекомендуемые моды: base-mods.md
+    - Приватные территории: private-areas.md  
   
   - 📖 Правила и законы: 
     - Основные правила: rules/index.md
