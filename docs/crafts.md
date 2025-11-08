@@ -32,7 +32,7 @@
 
 ## 🖼️ Прозрачная рамка
 
-![](asstes/images/crafts/invisible_frame_craft.png)
+![](assets/images/crafts/invisible_frame_craft.png)
 
 **Ингредиенты:**     
 - Рамка 8x
