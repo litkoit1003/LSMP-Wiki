@@ -234,17 +234,17 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 50px;">
   <div style="text-align: center;">
-    <img src="/LSMP-Wiki/assets/images/signs/litkoitSign.png" alt="Подпись Администратора" style="height: 80px;"><br>
+    <img src="../../../assets/images/signs/litkoitSign.png" alt="Подпись Администратора" style="height: 80px;"><br>
     Подпись (Администратор)
   </div>
 
   <div style="text-align: center;">
-    <img src="/LSMP-Wiki/assets/images/signs/litkoitSign.png" alt="Подпись Президента" style="height: 80px;"><br>
+    <img src="../../../assets/images/signs/litkoitSign.png" alt="Подпись Президента" style="height: 80px;"><br>
     Подпись (Президент)
   </div>
 
   <div style="text-align: center;">
-    <img src="/LSMP-Wiki/assets/images/signs/litkoitPressPresident.png" alt="Печать" style="height: 200px;">
+    <img src="../../../assets/images/signs/litkoitPressPresident.png" alt="Печать" style="height: 200px;">
     <div>Печать</div>
   </div>
 </div>
