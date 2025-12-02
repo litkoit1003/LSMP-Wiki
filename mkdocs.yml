@@ -21,46 +21,49 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.ico
 
-  palette: 
-  - scheme: slate
-    toggle:
-      icon: material/moon-waning-crescent
-      name: Тёмная тема
-    primary: deep purple
-    accent: green
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/moon-waning-crescent
+        name: Тёмная тема
+      primary: deep purple
+      accent: green
 
-  - scheme: default
-    toggle:
-      icon: material/weather-sunny
-      name: Светлая тема
-    primary: deep purple
-    accent: green
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+      primary: deep purple
+      accent: green
 
 nav:
   - ℹ️ Основная информация:
-    - Главная: index.md
-    - 🔮 Как зайти?:
-      - Основная информация: join-guide.md
-      - Рекомендуемые моды: base-mods.md
-    - 🌟 Механики сервера:
-      - Доступные крафты: crafts.md
-      - Онлайн карта: online-map.md
-      - Приватные территории: private-areas.md  
-      - Подписка PRIME: PRIME.md
-      - Лупа: magnifying_glass.md
-  
-  - 📖 Правила и законы: 
-    - Основные правила: rules/index.md
-    - Запрещённые моды: rules/prohibited-mods.md
-    - Скрытие игроков и пещер: rules/hide-players-and-caves.md
-  
-  - 🛠️ Исправление проблем: 
-    - Решение проблем: problems/index.md
-  
-  - 📜 Юридическая информация: 
-    - Политика конфиденциальности: policy/privacy-policy.md
-    - Пользовательское соглашение: policy/eula.md
-    
+      - Главная: index.md
+      - 🔮 Как зайти?:
+          - Основная информация: join-guide.md
+          - Рекомендуемые моды: base-mods.md
+      - 🌟 Механики сервера:
+          - Доступные крафты: crafts.md
+          - Онлайн карта: online-map.md
+          - Приватные территории: private-areas.md
+          - Подписка PRIME: PRIME.md
+          - Лупа: magnifying_glass.md
+
+  - 📖 Правила:
+      - Основные правила: rules/index.md
+      - Запрещённые моды: rules/prohibited-mods.md
+      - Скрытие игроков и пещер: rules/hide-players-and-caves.md
+
+  - ⚖️ Законы:
+      - О выборах: rules/about-voiting.md
+
+  - 🛠️ Исправление проблем:
+      - Решение проблем: problems/index.md
+
+  - 📜 Юридическая информация:
+      - Политика конфиденциальности: policy/privacy-policy.md
+      - Пользовательское соглашение: policy/eula.md
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
