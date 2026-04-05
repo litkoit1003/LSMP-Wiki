@@ -36,53 +36,9 @@ theme:
       primary: deep purple
       accent: green
 
+extra_javascript:
+  - assets/js/redirect.js
+
 nav:
   - ℹ️ Основная информация:
       - Главная: index.md
-      - 🔮 Как зайти?:
-          - Основная информация: join-guide.md
-          - Рекомендуемые моды: base-mods.md
-      - 🌟 Механики сервера:
-          - Дисплеи: displays.md
-          - Доступные крафты: crafts.md
-          - Напитки: drinks.md
-          - Онлайн карта: online-map.md
-          - Приватные территории: private-areas.md
-          - Подписка PRIME: PRIME.md
-          - Лупа: magnifying_glass.md
-
-  - 📖 Правила:
-      - Основные правила: rules/index.md
-      - Запрещённые моды: rules/prohibited-mods.md
-      - Скрытие игроков и пещер: rules/hide-players-and-caves.md
-
-  - ⚖️ Законы:
-      - Общие законы:
-          - О выборах: rules/about-voiting.md
-          - О правительстве и министрах: rules/about-goverment.md
-      - Законы Morskoy:
-          - О территории спавна: rules/act-spawn.md
-
-  - 🛠️ Исправление проблем:
-      - Решение проблем: problems/index.md
-
-  - 📜 Юридическая информация:
-      - Политика конфиденциальности: policy/privacy-policy.md
-      - Пользовательское соглашение: policy/eula.md
-
-markdown_extensions:
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
-  - md_in_html
-  - pymdownx.blocks.caption
