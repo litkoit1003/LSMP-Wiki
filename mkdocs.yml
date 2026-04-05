@@ -36,9 +36,6 @@ theme:
       primary: deep purple
       accent: green
 
-extra_javascript:
-  - assets/js/redirect.js
-
 nav:
   - ℹ️ Основная информация:
       - Главная: index.md
